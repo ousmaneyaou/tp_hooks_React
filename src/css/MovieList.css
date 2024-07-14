@@ -1,0 +1,14 @@
+/* Styles CSS pour MovieList */
+
+/* Style pour la liste de films */
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Style pour les marges internes des cartes de films */
+  .movie-list .movie-card {
+    margin: 0;
+  }
+  

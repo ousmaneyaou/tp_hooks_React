@@ -1,0 +1,116 @@
+/* Styles CSS pour l'application de films */
+
+/* Style de l'élément principal .app */
+.app {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Style de l'en-tête h1 */
+  .app h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  /* Style pour les sections de contenu */
+  .app section {
+    margin-bottom: 30px;
+  }
+  
+  /* Style pour le composant Filter */
+  .app .filter {
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour les cartes de films dans MovieList */
+  .app .movie-card {
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style pour l'image du film */
+  .app .movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour le titre du film */
+  .app .movie-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #343a40;
+  }
+  
+  /* Style pour la description du film */
+  .app .movie-card p {
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.5;
+  }
+  
+  /* Style pour la note du film */
+  .app .movie-card .rating {
+    font-size: 1.1rem;
+    color: #007bff;
+  }
+  
+  /* Style pour le bouton d'ajout de film */
+  .app .add-button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style pour le formulaire d'ajout de film */
+  .app .add-form {
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour les champs du formulaire */
+  .app .add-form input[type="text"],
+  .app .add-form input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  /* Style pour le bouton de soumission du formulaire */
+  .app .add-form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style pour les liens */
+  .app a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .app a:hover {
+    text-decoration: underline;
+  }
+  
